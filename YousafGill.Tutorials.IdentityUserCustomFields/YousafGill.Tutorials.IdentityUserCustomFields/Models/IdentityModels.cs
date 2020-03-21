@@ -20,6 +20,7 @@ namespace YousafGill.Tutorials.IdentityUserCustomFields.Models
         //Add Custom Fields Here
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string Gender { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>

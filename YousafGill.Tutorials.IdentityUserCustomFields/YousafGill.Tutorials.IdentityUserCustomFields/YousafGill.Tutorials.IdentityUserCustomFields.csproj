@@ -181,6 +181,10 @@
     <Compile Include="Migrations\202002292216576_%27addedfirstandlastname%27.Designer.cs">
       <DependentUpon>202002292216576_%27addedfirstandlastname%27.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003030535110_gender-field-added.cs" />
+    <Compile Include="Migrations\202003030535110_gender-field-added.Designer.cs">
+      <DependentUpon>202003030535110_gender-field-added.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -267,6 +271,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002292216576_%27addedfirstandlastname%27.resx">
       <DependentUpon>202002292216576_%27addedfirstandlastname%27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003030535110_gender-field-added.resx">
+      <DependentUpon>202003030535110_gender-field-added.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
